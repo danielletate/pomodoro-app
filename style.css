@@ -1,0 +1,48 @@
+body {
+  font-family: "Pacifico", cursive;
+  background: #2a0944;
+}
+
+.heading {
+  color: #fec260;
+}
+
+.row {
+  width: 100%;
+}
+
+.timer {
+  color: #fff;
+  text-align: center;
+  width: 20rem;
+  height: 20rem;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-play,
+.fa-redo-alt {
+  color: #a12568;
+  border: 2px solid transparent;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.fa-play:hover,
+.fa-redo-alt:hover {
+  color: #fec260;
+  border: 2px solid #fec260;
+  transition: all 0.3s ease;
+}
+
+.show-message {
+  display: block;
+  padding: 1rem 0;
+  color: #fec260;
+  background: #a12568;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+}
